@@ -6,6 +6,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="./assets/gridSystem.css">
     <link rel="stylesheet" href="./assets/style.css">
+    <link rel="stylesheet" href="./assets/responsive.css">
     <link rel="stylesheet" href="./assets/fonts/themify-icons/themify-icons.css">
     <link rel="stylesheet" href="./assets/fonts/fontawesome-free-5.15.4-web/css/all.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -16,9 +17,10 @@
 
 </head>
 <body>
+    <!-- Nav-Bar -->
     <div class="grid ">
-        <div class="row navigation">
-            <div class="col c-3">
+        <div class=" navigation">
+            <div class="col l-3 xl-2 m-2 ">
                 <div class="nav__logo">
                     <a href="#">
                         <img src="./assets/image/opensea__logo.svg" alt="">
@@ -26,7 +28,7 @@
                     </a>
                 </div>
             </div>
-            <div class="col c-4 ">
+            <div class="col l-4 xl-8 m-9 ">
                 <div class="nav__search">
                     <div class="input">
                         <div class="searchIcon">
@@ -36,8 +38,8 @@
                     </div>
                 </div>
             </div>
-            <div class="col c-5 row">
-                <div class="col c-9 nav__dropdown">
+            <div class="col l-5 xl-2 m-1  nav__content">
+                <div class="col l-9 xl-0 m-0 nav__dropdown ">
                     <ul class="">
                         <li class="Explore dropdown">
                             <a href="#"> Explore</a>
@@ -103,9 +105,9 @@
                         </li>
                     </ul>
                 </div>
-                <div class="col c-3">
-                    <div class="nav__profile row">
-                        <div class="profile__user col c-6">
+                <div class="col l-3 xl-12">
+                    <div class="nav__profile">
+                        <div class="profile__user col l-6 xl-4 m-0 ">
                             <a href="#" class="" >
                                 <i class="far fa-user-circle"></i>
                                 <ul class="user--dropdown">
@@ -132,13 +134,20 @@
                                 </ul>
                             </a>
                         </div>
-                        <div class="profile__wallet col c-6">
+                        <div class="profile__wallet col l-6 xl-4 m-0 ">
                             <a href="#"><i class="ti-wallet"></i></a>
+                        </div>
+                        <div class="menu col l-0 xl-4 m-12 ">
+                            <i class="fas fa-bars"></i>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
+    <!-- Body -->
+    <div class="grid wide body">
+        
     </div>
 <script src="./assets/main.js"></script>
 </body>

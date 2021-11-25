@@ -1,6 +1,7 @@
 const $ = document.querySelector.bind(document);
 const $$ = document.querySelectorAll.bind(document);
 
+//Select Element
 const dropdowns = $$(".dropdown");
 const subtitle = $$(".subtitle");
 
